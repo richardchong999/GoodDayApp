@@ -36,6 +36,9 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+// adding comments with DT so I can see the changes in Github
+// DT: 250324@10:26pm
+
 // Testing - send "Good Day!" to console
 app.MapGet("/goodday", () =>
 {
