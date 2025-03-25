@@ -13,8 +13,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseHttpsRedirection();
+// commented out below 250325@3:25pm
+// app.UseHttpsRedirection();
 
 var summaries = new[]
 {
